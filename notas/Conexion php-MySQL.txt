@@ -1,0 +1,15 @@
+//Conexion a la base de datos con funciones predefinidas(programación estructurada).
+$conexion = mysqli_connect($host, $user, $password, $database);
+
+//Comprobar conexion mysqli_connect_errno()
+if(mysqli_connect_errno()){
+	echo 'La conexio a la base de datos MySQL ha fallado'.mysqli_connect_error();
+}else{
+	echo 'Conexion exitosa';
+}
+
+//Consulta para configurar la codificación de caracteres(en caso de que las consultas retornen resultados con caracteres como 'ñ')
+mysqli_query($conexion, "SET NAMES 'utf8'");
+
+//Ejemplo de consulta
+$query = mysqli_query($conexion, "SELECT * FROM name_table");
