@@ -1,0 +1,24 @@
+Secciones EJ:
+body{
+}
+
+Id
+#menu{
+}
+
+Clase
+.bloque{
+}
+
+Todos los elementos de la página
+*{
+}
+
+FUENTES
+***Instalar fuente***
+@font-face{
+font-family: "nombrea_signado";
+src: url(ruta/file.ttl) format('truetype');
+}
+
+background: url(rutaimagen) #F$F$F$; *color alternativo

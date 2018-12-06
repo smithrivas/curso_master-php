@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Blog de videojuegos</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
     </head>
     <body>
         <!-- CABECERA -->
@@ -16,6 +17,7 @@
 
             <!-- MENU -->
             <nav id="menu">
+              <ul>
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Categoria 1</a></li>
                 <li><a href="">Categoria 2</a></li>
@@ -23,7 +25,9 @@
                 <li><a href="">Categoria 4</a></li>
                 <li><a href="">Sobre mi</a></li>
                 <li><a href="">Contacto</a></li>
+              </ul>
             </nav>
+            <div class="clearfix"></div>
         </header>
 
         <div id="contenedor">
@@ -65,25 +69,38 @@
         <div id="principal">
             <h1>Ultimas entradas</h1>
             <article class="entrada">
+              <a href="#">
                 <h2>Titulo de mi entrada</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more.</p>
+              </a>
             </article>
 
             <article class="entrada">
+              <a href="#">
                 <h2>Titulo de mi entrada</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more.</p>
+              </a>
             </article>
 
             <article class="entrada">
+              <a href="#">
                 <h2>Titulo de mi entrada</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more.</p>
+              </a>
             </article>
 
             <article class="entrada">
+              <a href="#">
                 <h2>Titulo de mi entrada</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more.</p>
+              </a>
             </article>
-        </div>
+            <div id="ver-todas">
+              <a href="#">Ver todas las entradas</a>
+            </div>
+        </div><!--Fin principal-->
+
+        <div class="clearfix"></div>
 
         </div>
 
