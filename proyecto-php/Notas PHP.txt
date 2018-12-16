@@ -1,0 +1,10 @@
+CIFRADO DE CONTRASEÑA
+$password_segura = password_hash($password, PASSWORD_BCRYPT, ['cost'=>4]);
+
+*Para borrar sesión solo utilizar unset();
+$_SESSION['errores'] = null;
+  unset($_SESSION['errores']);  	
+
+//Comprar contraseñas cifradas
+password_verify($password, $password_cifrada)
+*Devuelve true o false
