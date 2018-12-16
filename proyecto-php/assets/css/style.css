@@ -37,6 +37,12 @@ body{
   background: red;
 }
 
+.fecha{
+  color: #4e4e4e;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
 /*CABECERA*/
 #cabecera{
   width: 85%;
@@ -52,7 +58,7 @@ body{
   height: 110px;
 }
 
-#logo{
+#logo a{
   font-family: "fajala", Helvetica;
   font-size: 40px;
   letter-spacing: 2px;
@@ -150,7 +156,8 @@ label, input[type="password"]{
 }
 
 input[type="button"],
-input[type="submit"]{
+input[type="submit"],
+.boton{
   margin-top: 5px;
   margin-bottom: 5px;
   display: block;
@@ -160,6 +167,26 @@ input[type="submit"]{
   border: 1px solid #156785;
   cursor: pointer;
   padding: 7px;
+}
+
+.boton{
+  text-align: center;
+  width: 130px;
+}
+
+.boton-naranja{
+  background: orange;
+  border-color: #bd7d08;
+}
+
+.boton-verde{
+  background: #21b921;
+  border-color: green;
+}
+
+.boton-rojo{
+  background: red;
+  border-color: darkred;
 }
 
 /*PRINCIPAL*/
