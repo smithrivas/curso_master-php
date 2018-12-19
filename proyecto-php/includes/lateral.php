@@ -4,9 +4,9 @@
     <div id="usuario-logueado" class="bloque">
       <h3>Bienvenido, <?=$_SESSION['usuario']['nombre'].' '.$_SESSION['usuario']['apellidos'];?></h3>
       <!-- Botones -->
-      <a href="cerrar.php" class="boton boton-verde">Crear entradas</a>
-      <a href="cerrar.php" class="boton">Crear categoria</a>
-      <a href="cerrar.php" class="boton boton-naranja">Mis datos</a>
+      <a href="crear-entradas.php" class="boton boton-verde">Crear entradas</a>
+      <a href="crear-categoria.php" class="boton">Crear categoria</a>
+      <a href="mis-datos.php" class="boton boton-naranja">Mis datos</a>
       <a href="cerrar.php" class="boton boton-rojo">Cerrar sesión</a>
     </div>
   <?php endif; ?>
@@ -35,6 +35,7 @@
 
     <div id="register" class="bloque">
         <h3>Registrate</h3>
+
         <!-- Moestrar errores -->
         <?php if (isset($_SESSION['completado'])): ?>
           <div class="alerta alerta-exito">

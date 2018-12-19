@@ -22,7 +22,7 @@ require_once 'includes/helpers.php';
             <!-- MENU -->
             <nav id="menu">
               <ul>
-                <li><a href="">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                 <?php
                   $categorias = conseguirCategorias($db);
                   if(!empty($categorias)):
