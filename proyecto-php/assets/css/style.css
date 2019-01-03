@@ -170,6 +170,7 @@ input[type="submit"],
 }
 
 .boton{
+  color:white !important;
   text-align: center;
   width: 130px;
 }
@@ -179,7 +180,7 @@ input[type="submit"],
   border-color: #bd7d08;
 }
 
-.boton-verde{
+.boton-verde{  
   background: #21b921;
   border-color: green;
 }
