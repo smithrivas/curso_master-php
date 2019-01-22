@@ -20,6 +20,20 @@ class ComposerStaticInit536d51f44382dfeba15fe8e9f36d28d5
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PHPThumb\\Tests' => 
+            array (
+                0 => __DIR__ . '/..' . '/masterexploder/phpthumb/tests',
+            ),
+            'PHPThumb' => 
+            array (
+                0 => __DIR__ . '/..' . '/masterexploder/phpthumb/src',
+            ),
+        ),
+    );
+
     public static $classMap = array (
         'Datamatrix' => __DIR__ . '/..' . '/tecnickcom/tcpdf/include/barcodes/datamatrix.php',
         'PDF417' => __DIR__ . '/..' . '/tecnickcom/tcpdf/include/barcodes/pdf417.php',
@@ -35,6 +49,7 @@ class ComposerStaticInit536d51f44382dfeba15fe8e9f36d28d5
         'TCPDF_IMPORT' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf_import.php',
         'TCPDF_PARSER' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf_parser.php',
         'TCPDF_STATIC' => __DIR__ . '/..' . '/tecnickcom/tcpdf/include/tcpdf_static.php',
+        'Zebra_Pagination' => __DIR__ . '/..' . '/stefangabos/zebra_pagination/Zebra_Pagination.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -42,6 +57,7 @@ class ComposerStaticInit536d51f44382dfeba15fe8e9f36d28d5
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit536d51f44382dfeba15fe8e9f36d28d5::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit536d51f44382dfeba15fe8e9f36d28d5::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit536d51f44382dfeba15fe8e9f36d28d5::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit536d51f44382dfeba15fe8e9f36d28d5::$classMap;
 
         }, null, ClassLoader::class);
