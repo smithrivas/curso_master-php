@@ -1,13 +1,17 @@
 <?php
-class Coche{
-  // Propiedades
-  // PUBLIC: Se puede acceder desde cualquier lugar dentro de la clase actual, clases que hereden esta clase o fuera de la clase.
-  public $color;
-  // PROTECTED: Se accede desde la clase que lo define y desde clases que hereden esta clase.
-  protected $marca;
-  // PRIVATE: Solo se puede acceder desde la clase que lo define.
-  private $modelo;
 
+class Coche{
+
+  // Atribtos o propiedades
+
+  // Public = Se accede a el desde cualquier lugar dentro de la clase actual, clases que hereden esta clase o incluso fuera de la clase.
+  public $color;
+
+  // Protected = Se puede acceder desde la clase que los define y desde clases que hereden esa clase.
+  protected $marca;
+
+  // Private = Solamente desde esa clase.
+  private $modelo;
   public $velocidad;
   public $caballaje;
   public $plazas;
@@ -21,7 +25,9 @@ class Coche{
     $this->plazas = $plazas;
   }
 
+  // Metodos o acciones
   public function getColor(){
+    // Acceder a una propiedad perteneciente a la clase
     return $this->color;
   }
 
@@ -31,10 +37,6 @@ class Coche{
 
   public function setModelo($modelo){
     $this->modelo = $modelo;
-  }
-
-  public function setMarca($marca){
-    $this->marca = $marca;
   }
 
   public function getModelo(){
@@ -53,16 +55,7 @@ class Coche{
     return $this->velocidad;
   }
 
-  public function mostrarInformacion(Coche $miObjeto){
-    if (is_object($miObjeto)) {
-      $informacion = "<h1>Información del coche</h1>";
-      $informacion .= "Color: ".$miObjeto->color;
-      $informacion .= "<br/>Modelo: ".$miObjeto->modelo;
-      $informacion .= "<br/>Velocidad: ".$miObjeto->velocidad;
-    }else{
-      $informacion = "Tu dato es este: $miObjeto";
-    }
-
-    return $informacion;
+  public function setMarca($marca){
+    $this->marca = $marca;
   }
-}
+} // Fin defición de la clase

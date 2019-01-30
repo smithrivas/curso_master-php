@@ -1,0 +1,13 @@
+CLASE = Molde con el cual se pueden crear varios objetos que tengan caracteristicas similares.
+*El nombre de la clase inicia en mayuscula.
+*Se instancia o se crea objeto con palabra reservada "new", Ej: $carro = new NameClass()
+*Después de ser instanciado se accede a los metodos o atributos con $objeto->propiedad o $objeto->metodo()
+*Se pueden crear varios objetos utilizando las mismas caracteristicas con valores diferentes en cada caso.
+
+ATRIBUTOS O PROPIEDADES = Variables dentro de la clase.
+*Se puede setear la propiedad apenas se declara: public $color = "Rojo", la otra opción es setearle un valor a través de un metodo: $this->color = "Rojo".
+
+METODOS = Funciones dentro de la clase, acciones que
+realizará el objeto, se interactúa con los atributos que tiene la clase.
+
+$this->propiedad = Para acceder a una propiedad dentro de la misma clase.

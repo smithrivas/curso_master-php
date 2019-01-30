@@ -1,0 +1,23 @@
+CONSTRUCTOR = Es un metodo especial dentro de una clase y se utiliza para dar valor a los atributos de un objeto.
+*Es el primer metodo que se ejecuta al crear el objeto y se llama automáticamente al crearlo.
+*No devuelve datos, solo se utiliza para setear valor a las propiedades.
+*Se llama con public function __construct(){}, siempre debe ser público sino no funciona.
+*Una buena practica es asignar valores a las variables dentro del constructor.
+*Los valores de los atributos se pueden asignar a través de parametros en el costructor.
+
+VISIVILIDAD DE ATRIBUTOS Y METODOS
+Se definen como:
+Public = Se accede a el desde cualquier lugar dentro de la clase actual, clases que hereden esta clase o incluso fuera de la clase.
+Protected = Se puede acceder desde la clase que los define y desde clases que hereden esa clase.
+Private = Solamente desde esa clase.
+
+TIPO DE DATO
+Se puede establecer la clase a la cual pertenece el objeto, Ej:
+public function(Coche $Objeto){
+if(is_object($objeto)){
+    $info = $Objeto->atributo;
+  }else{
+    $info = error;
+  }
+  return $info;
+}

@@ -1,18 +1,18 @@
 <?php
-// Programación orientada a objetos en PHP(POO)
 
-// Definir clase (molde para crear más objetos de tipo coche con caracteristicas similares)
 class Coche{
-  // Atributo o propiedades (Variables)
+
+  // Atribtos o propiedades
   public $color = "Rojo";
-  public $marca = "Ferrari";
+  public $marca = "ferrari";
   public $modelo = "Aventador";
   public $velocidad = 300;
   public $caballaje = 500;
   public $plazas = 2;
 
-  // Metodos (ANtes funciones), son acciones que hace el objeto
+  // Metodos o acciones
   public function getColor(){
+    // Acceder a una propiedad perteneciente a la clase
     return $this->color;
   }
 
@@ -35,28 +35,27 @@ class Coche{
   public function getVelocidad(){
     return $this->velocidad;
   }
+} // Fin defición de la clase
 
-} // Fin definición de la clase
-
-// Crear objeto o instanciar la clase
+// Crear objeto o instanciar clase
 $coche = new Coche();
 //var_dump($coche);
-
-// Usar los metodos
-$coche->setColor("Amarillo");
-echo "El color del coche es: ".$coche->getColor()."<br/>";
-
+echo "El color inicial es ".$coche->color."</br>";
+$coche->setColor("Verde");
+echo "El nuevo color es ".$coche->color."</br>"; // Consultando directamente al atributo
+echo "El nuevo color es ".$coche->getColor()."</br>"; // Consultando el atributo a través de un metodo
 $coche->acelerar();
 $coche->acelerar();
 $coche->acelerar();
 $coche->acelerar();
 $coche->frenar();
+echo "La velocidad es ".$coche->getVelocidad()."</br>";
 
-echo "La velocidad del coche es: ".$coche->getVelocidad()."<br/>";
+echo "<hr/>";
 
 $coche2 = new Coche();
-$coche2->setColor("Verde");
-$coche2->setModelo("Gallardo");
+$coche->setModelo("Gallardo");
+$coche->setColor("Amarillo");
 
 var_dump($coche);
 var_dump($coche2);
