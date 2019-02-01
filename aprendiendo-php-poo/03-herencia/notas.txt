@@ -1,0 +1,7 @@
+HERENCIA = La posibilidad de compartir funcionalidades o caracteristicas entre clases, el fin de este es no repetir tanto código, reutilizar atributos y metodos de otra clase.
+*Con la palabra extends y el nombre de la clase se heredan los atributos y metodos de la otra clase.
+class Informatico extends Persona{ }
+*Si en la clase padre hay un constructor entonces también se hereda y le asigna valor a los atributos tal como lo tenga estipulado.
+*Si en la clase hijo se crea un constructor entonces ya no hereda el constructor de la clase padre, si se quiere seguir heredando entonces se debe llamar dentro del constructor:
+parent::__construct();
+De esa forma ya se hereda también el constructor de la clase padre.

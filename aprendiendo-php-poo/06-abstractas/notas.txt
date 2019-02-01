@@ -1,0 +1,6 @@
+CLASES ABSTRACTAS = Es una clase que se crea para heredar propiedades y metodos,
+si el metodo se define abstracto entonces es obligatorio que se defina su funcionalidad en la clase hija sino marca error,
+
+Se define de la siguiente manera:
+abstract public function encender();
+*No se puede definir ninguna funcionalidad, la funcionalidad se le indica en la clase hijas.

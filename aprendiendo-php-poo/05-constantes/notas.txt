@@ -1,0 +1,8 @@
+PROPIEDADES CONSTANTES DE CLASE = se asigna en la clase con la palabra:
+const NAME_CONSTANTE = "Contenido";
+
+*Se llama despues de haber instanciado el objeto:
+echo $objeto::NAME_CONSTANTE;
+
+*Se puede acceder sin instanciar el objeto:
+echo ClassName::NAME_CONSTANTE;

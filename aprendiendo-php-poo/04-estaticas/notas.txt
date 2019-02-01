@@ -1,0 +1,4 @@
+PROPIEDADES Y METODOS ESTATICOS = Para acceder a la propiedad o el metodo no es necesario instanciar el objeto.
+PROPIEDADES = public static $propiedad;
+*Para acceder a las propiedades en los metodos no se accede con $this->propiedad sino con self::$propiedad;
+:: = Se accede a propiedades o metodos estaticos.

@@ -1,0 +1,4 @@
+Es un contrato en el cual se define que metodos y en que orden van a estar en una clase que la implemente, cuando se herede(implemente) entonces en la clase hija deben cumplir obligatoriamente con los metodos correctamente en esa clase.
+*Solo se crea el metodo pero no se da ninguna funcionalidad, la funcionalidad se la da la clase que la implemente, se utiliza con la palabra:
+implements
+Class Name implements NameClass{}

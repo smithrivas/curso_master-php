@@ -7,7 +7,6 @@ CLASE = Molde con el cual se pueden crear varios objetos que tengan caracteristi
 ATRIBUTOS O PROPIEDADES = Variables dentro de la clase.
 *Se puede setear la propiedad apenas se declara: public $color = "Rojo", la otra opción es setearle un valor a través de un metodo: $this->color = "Rojo".
 
-METODOS = Funciones dentro de la clase, acciones que
-realizará el objeto, se interactúa con los atributos que tiene la clase.
+METODOS = Funciones dentro de la clase, acciones que realizará el objeto, se interactúa con los atributos que tiene la clase.
 
 $this->propiedad = Para acceder a una propiedad dentro de la misma clase.
